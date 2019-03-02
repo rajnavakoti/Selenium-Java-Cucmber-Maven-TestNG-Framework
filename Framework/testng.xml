@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Raisin QA Test" skipfailedinvocationcounts="false" junit="false"
+    parallel="tests" data-provider-thread-count="1" annotations="JDK">
+	<test name="FREE CRM Test" annotations="JDK"
+		preserve-order="true">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.raisin.test.runner.TestRunner" />
+		</classes>
+	</test>
+</suite>
